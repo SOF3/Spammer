@@ -12,7 +12,7 @@ GITHUB_WEBHOOK=1234
 
 # Usage
 Alright, now go to a repository where the app is installed and create `.github/spammer.yml` with the following contents.
-```
+```yaml
 # This is the title for all future spam issues.
 title: "Spam"
 
