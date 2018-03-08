@@ -117,7 +117,6 @@ app.post('/webhook', (req, res) => {
                                                 })
                                             })
                                             // ^ Loop through all comments and delete them by id
-                                            console.error(config)
                                             var options = {
                                                 url: 'https://api.github.com/repos/' + req.body.repository.full_name + '/issues/' + req.body.issue.number,
                                                 method: 'PATCH',
