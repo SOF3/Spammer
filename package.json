@@ -1,0 +1,31 @@
+{
+  "name": "spammer",
+  "private": true,
+  "version": "0.1.0",
+  "author": {
+    "name": "Nathaniel Fredericks",
+    "email": "me@nathfreder.website",
+    "url": "https://nathfreder.website"
+  },
+  "description": "Spammer is a bot that will close, and lock issues if they are marked as spam.",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "request": "^2.83.0",
+    "body-parser": "^1.18.2",
+    "jsonwebtoken": "^8.2.0",
+    "js-yaml": "^3.11.0"
+  },
+  "devDependencies": {
+    "standard": "^11.0.0"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/spammer"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "license": "MPL-2.0"
+}
